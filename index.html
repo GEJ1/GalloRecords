@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallo Records</title>
+</head>
+<body>
+    <header>
+        <!-- <nav>
+            <a href=""><img class='logo' src="images/logo.jpg" alt="logo gallo records"></a>
+            <ul>
+                <li><a href="#nosotros">Somos</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Contacto</a></li>
+
+            </ul>
+        </nav> -->
+        <div class="topnav" id="myTopnav">
+            <a href=""><img class='logo' src="images/logo.jpg" alt="logo gallo records"></a>
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          
+          
+    </header>
+    <section class="splash">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <div class="texto">
+                        
+                        <h1>Experimentá la música</h1>
+                        <br>
+                        <h1>a tu medida</h1>
+                        <br>
+                        <button type="button" class="btn btn-primary">CONTACTANOS</button>
+
+                    </div>
+                    
+                </div>
+                <div class="col-6">
+                      <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ply65HNZQMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        
+    </section>
+
+    <section class="cards">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    
+                    <div class="card h-100">
+                        <img src="images/frescas.jpg" class="card-img-top" alt="...">
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">Grabación</h5>
+                          <p class="card-text">Te ofrecemos un servicio completo de grabación.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="images/casettes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                        <img src="images/live.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+
+    </section>
+
+   
+    <section class="descripcion espacios" id='nosotros'> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 centrado">
+                    <h1>Gallo Records</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                        <p>Somos un estudio de Grabación. Contamos con un amplio Backline de las mejores marcas. Especializacion en audio de bateria. Realizamos grabaciones y producciones presenciales y en forma remota. Jingles, discos. ¡Escribinos para contarnos tu proyecto!
+                        </p>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-3"><div class="card">
+                    <div class="pic">
+                        <img class="img-fluid" src="images/cerdito.jpg" alt="">
+                    </div>
+                </div></div>
+                <div class="col-md-3"><div class="card">
+                    sarasa
+                </div></div>
+                <div class="col-md-3"><div class="card">
+                    sarasa
+                </div></div>
+                <div class="col-md-3"><div class="card">
+                    sarasa
+                </div></div>
+            </div>
+    </section>
+    <section class="contacto espacios" id='contacto'> 
+        <div class="container">
+            <div class="row">
+                <hr>
+              <div class="col-md-6">Holis</div>
+              <div class="col-md-6">que talco?</div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+</body>
+
+</html>
